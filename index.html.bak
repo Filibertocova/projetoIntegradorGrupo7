@@ -14,7 +14,7 @@
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img width="20%" height="20%" class="logo1" src="logo.png"></h1>
+				<h1><img class="logo1" src="logo.png"></h1>
 
 				<nav>
 					<ul>

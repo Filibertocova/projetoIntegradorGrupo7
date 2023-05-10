@@ -39,7 +39,7 @@ main {
 footer {
 	text-align: center;
 	padding: 40px 0;
-	background: green;
+	background: linear-gradient(white, white,green);
 }
 .copyright {
 	background: green;
