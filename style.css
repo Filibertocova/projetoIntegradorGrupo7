@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -13,10 +18,16 @@ header {
 	position; relative;
 	padding-right: 100px;
 }
-.caixa {
+
+.menu {
+	display: inline-block;
+	height: 10px;
+}
+/*.caixa {
 	position: relative;
 	width: 50%;
 	margin: 0 auto;
+
 nav {
 	position: absolute;
 	top: 110px;
