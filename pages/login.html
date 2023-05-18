@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Login</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="./login.css">-->
+    <title>Faça seu login</title>
+</head>
+<body>
+    <header>
+        <img src="../Imagens\logo.png" alt="">
+        <h1>Faça login</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form >
+                <fieldset>
+                    <h3>Forneça seus dados</h3>
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<header>
-			<header>
-				<div class="caixa">
-					<h1><img width="20%" height="20%" class="logo1" src="../assets/Image/logo.png"></h1>
-	
-					<nav>
-						<ul>
-							<li><a href="./index.html">Home</a></li>
-							<li><a href="./produtos.html">Produtos</a></li>
-							<li><a href="./contato.html">Contato</a></li>
-							<li><a href="./quemSomos.html">Quem somos</a></li>
-							<li><a href="./login.html">Minha Conta</a></li>
-						</ul>
-					</nav>
-				</div>
-		</header>
-		<footer>
-			<img width="15%" height="15%" class="logo2"src="../assets/Image/logo.png">
-			<p class="copyright">&copy; Copyright Agora - 2023</p>
-	
-		</footer>
-		<script src="main.js"></script>
-	</body>
+                    <label for="e-mail" class="label">E-mail</label>
+                    <input type="text" name="email" class="input" placeholder="Digite seu e-mail">
+
+
+                    <label for="senha" class="label">Senha</label>
+                    <input type="password" name="senha" class="input" placeholder="Digite sua senha">
+
+                    <button type="submit" id="submit">Enviar</button>
+            </fieldset>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <img src="" alt="">
+    </footer>
+    
+</body>
 </html>
