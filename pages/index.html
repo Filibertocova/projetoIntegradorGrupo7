@@ -4,54 +4,76 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title>AGORA │ O futuro é agora</title>		
+		<link rel="stylesheet" href="home.css">
+		<link rel="stylesheet" href="../assets/css/global.css">
 	</head>
   
 	<body>
-		<header>
-			<div class="caixa">
-        
-				<h1><a href="./index.html"><img width="20%" height="20%" class="logo1" src="../assets/Image/logo.png" ></a></h1>
+		<!-- Navbar -->
+		<header class="header">
+				<a href="./index.html"><img  src="../assets/Image/logo (1).png" alt="logo agora," ></a>
 				<nav>
-					<ul>
+					<ul class="menu">
 						<li><a href="./produtos.html">Produtos</a></li>
 						<li><a href="./contato.html">Contato</a></li>
-						<li><a href="./quemSomos.html">Quem somos</a></li>
-						<li><a href="./login.html">Minha Conta</a></li>
-						<li><a href="#"><img width="20px" src="../assets/Image/home/icons/carrinho-verde.png" alt="carrinho da cor verde claro"></a></li>
-						
+						<li><a href="./quemSomos.html">Quem Somos</a></li>
+						<li><a href="./login.html"> Minha Conta</a></li>
+						<li><a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a></li>
 					</ul>
 				</nav>
-			</div>
 		</header>
 
-		<h2>Da semente à colheita, o seu sucesso é o nosso cultivo.</h2>
-		<img width="100%" height="1%" class="banner" src="../assets/Image/home/imagem-fundo/fazendeira.jpg">
+		<!-- inicio Banner -->
+		<div class="banner">
+			<div class="title-banner">
+				<h1>AGORA │ O futuro é agora</h1>
+				<div class="text-banner">
+					<p>Alcance alturas inexploradas. Aumente a eficiência.</p>
+					<p>Supere limites. Desbrave o futuro do agronegócio com drones.</p>
+				</div>				
+			</div>
+		</div>
+			<!-- Fim Banner -->
 		<main>
-			<input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisar">
-			<label for="search"></label>
-			<img width="20px" height="20px" src="../assets/Image/home/icons/lupa.png" alt="lupa preta">
-
-			<section>
-				<div>
-					<img width="15%" height="15%" src="../assets/Image/home/icons/icone-frete.png" alt="frete Gratis.">
-					<h2>Frete Gratis</h2>
-					
-					<img width="15%" height="15%" src="../assets/Image/home/icons/icone-economico.png"   alt="Econômico">
-					<h2>Econômico</h2>
-					
-					<img width="15%" height="15%" src="../assets/Image/home/icons/icon-promotion.png" alt="Promoções.">
-					<h2>Promoções</h2>
-					
-					<img width="15%" height="15%" src="../assets/Image/home/icons/icon-support.png" alt="Suporte 24 hrs.">
-					<h2>Suporte 24 hrs</h2>
+			<!-- inicio Navbar -->
+			<div class="search">
+				<div class="search-bar">
+					<input type="search" name="pesquisar" id="pesquisar" placeholder="Buscar produtos...">
+					<label for="pesquisar"><img height="20px" src="../assets/Image/home/icons/lupa.png" alt="lupa preta"></label>
 				</div>
+			</div>
+			<section class="value-icons">
+				<div class="value">
+					<img  src="../assets/Image/home/icons/icone-frete.png" alt="frete Gratis.">
+					<h5>Frete Gratis</h5>
+				</div>
+				<div class="value">
+					<img src="../assets/Image/home/icons/icone-economico.png"   alt="Econômico">
+					<h5>Econômico</h5>
+				</div>
+				<div class="value">
+					<img src="../assets/Image/home/icons/icon-promotion.png" alt="Promoções.">
+					<h5>Promoções</h5>
+				</div>
+				<div class="value">
+					<img src="../assets/Image/home/icons/icon-support.png" alt="Suporte 24 hrs.">
+					<h5>Suporte 24 hrs</h5>
+				</div>
+			<!-- Fim Navbar -->
 			</section>
-			<h2>Produtos em Destaque</h2>
-			<section>	
-				<div>
-					<h3>Queijo Artesanal - 350G</h3>
-					<p>R$ 34,90</p>
-					<img width="25%" height="25%" src="../assets/Image/home/produtos/queijo-produtos.jpg" alt="Imagem colorida do queijo dentro de uma embalagem branca.">
+			
+			<section class="products">	
+				<h2>Produtos em Destaque</h2>
+				<p></p>
+				<div class="product-box">
+					<div class="product">
+						<img width="25%" height="25%" src="../assets/Image/home/produtos/queijo-produtos.jpg" alt="Imagem colorida do queijo dentro de uma embalagem branca.">
+						<div class="description">
+							<span>Queijo</span>
+							<h5></h5>
+							
+						</div>
+					</div>
 					
 					<h3>Amendoin - 300G</h3>
 					<p>R$ 14,90</p>
@@ -104,7 +126,7 @@
 
 			</section>
 		</main>
-		<footer>
+		<footer class="footer">
 			<img width="7%" class="logo2" src="../assets/Image/logo.png">
 			<br>
 			<a href="#"><img src="../assets/Image/footer/redes-sociais/facebook.png" alt="icone do facebook" width="20px"></a>
