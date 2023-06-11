@@ -3,6 +3,9 @@
     --body: #EBEBEB;
     --value: #335039;
     --text-value: #B4D565;
+    --button: #70AD47;
+    --search-bar: #F0F0F0;
+
 }
 
 body {
@@ -17,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../assets/Image/home/imagem-fundo/drone6.jpg);
+    background: url(../Image/home/imagem-fundo/dronee.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,7 +55,6 @@ body {
 .search-bar {
     display: flex;
     align-items: center;
-    background-color: #F0F0F0;
     padding: 15px;
     border-radius: 8px;
     width: 100%;
@@ -60,7 +62,7 @@ body {
 
 .search-bar input {  
     color: #000;
-    font-size: 17px;
+    font-size: 1.125rem;
     border: none;
     background: none;
     outline: none;
@@ -72,7 +74,7 @@ body {
 }
 
 .search-bar label {
-    color: #fff;
+
     cursor: pointer;
     font-size: 20px;
     padding: 0 5px;
@@ -134,3 +136,215 @@ body {
     background-color: #E91E63;
 }
 
+/* Inicio produtos em destaque */
+
+.products h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .product-card {
+    flex-basis: 26%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .product-container:nth-child(2n +1) {
+    margin-left: 30px;
+  }
+  
+.product-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+  
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.product-details {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.product-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+  
+.product-price {
+    font-size: 1.125rem;
+    color: #666666;
+    text-align: justify;
+}
+
+.free {
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+    text-align: justify;
+}
+  
+/* Fim produtos em destaque */
+
+/* Inicio separador */
+
+.separate-section {
+    background-image: url("../Image/home/imagem-fundo/drone10.png   ");
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+}
+  
+.separate-section p  {
+   font-size: 1.4rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 10px 10px;
+   color: #181717;
+   text-align: justify;
+}
+
+.separate-section {
+    margin: 10px 0 30px;
+}
+
+/* Fim seperador */
+  
+
+/* Inicio categoria produtos */
+
+.category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.card {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+  
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+  
+.card h4 {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+/* Fim categoria produtos */
+
+/* Inicio NewsLetter */
+.newsletter-container {
+    background-color: #334F38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+   
+.newsletter-container h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+  
+.newsletter-container h4 {
+    font-size: 1.1rem;
+    color: #fff;
+}
+  
+.newsletter-form {
+    flex-grow: 1;
+}
+  
+.newsletter-inputs {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    flex: 1 1 auto;
+}
+  
+.newsletter-inputs input {
+    padding: 25px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    flex-grow: 1;
+}
+  
+.newsletter-button {
+    flex-grow: 1;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #70AD47;
+    color: #FFF;
+    font-size: .875rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.newsletter-button:hover {
+    background-color: #519E36;
+}
+
+/* Fim NewsLetter */
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
