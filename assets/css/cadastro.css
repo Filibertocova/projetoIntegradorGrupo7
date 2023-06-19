@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     border: 0;
     box-sizing: border-box;
@@ -81,4 +81,159 @@ fieldset {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --Header: #063b10da;
+    --text-footer: #B4D562;
+}
+
+.header {
+    font-size: 1.2rem;
+    background-color: var(--Header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li img {
+    object-fit: cover;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu a {
+    padding: 0 10px;
+    color: #ccc;
+}
+
+.menu a:hover {
+    color: var(--text-footer);
+    transition: 0.2s;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--Header);
+    border-radius: 2rem;
+    width: 370px;
+    height: 370px;
+    padding: 1rem;
+}
+
+h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.label {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-bottom: 0.8rem;
+    padding-left: 0.8rem;
+}
+
+.input:placeholder{
+    color: black;
+}
+
+
+#submit {
+    width: 200px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Nosso footer */
+.footer {
+    background: linear-gradient(120deg, #0D2711, #203323);
+    padding: 25px 0 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+   
+.footer ul li {
+    margin-bottom: 10px;
+}
+  
+.footer a {
+    color: #ffffff;
+}
+  
+.footer a:hover {
+    text-decoration: underline;
+}
+   
+.footer-logo {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.footer h4 {
+    margin-bottom: 10px;
+    font-size: 1.125re;
+    color: var(--text-footer);
+}
+
+.footer span {
+    color: #fff;
+}
+
+.footer-logo span {
+    color: var(--text-test);
 }
