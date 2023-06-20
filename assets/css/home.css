@@ -84,8 +84,6 @@ body {
 
 /* inicio value-icons */
 
-
-
 .value-icons {
     padding: 40px 80px;
     display: flex;
@@ -150,8 +148,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 40px
-    
-  }
+}
   
   .product-card {
     flex-basis: 26%;
@@ -160,15 +157,15 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     cursor: pointer;
-  }
+}
 
   .product-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+}
 
   .product-container:nth-child(2n +1) {
     margin-left: 30px;
-  }
+}
   
 .product-image {
     width: 100%;
