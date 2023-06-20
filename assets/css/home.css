@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../Image/home/imagem-fundo/dronee.png);
+    background: url(../Image/home/imagem-fundo/farm-worker-driving-tractor-spraying-green-meadow-generated-by-ai.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .title-banner h1 {
-    color: #065712;
+    color: #26c533;
     letter-spacing: 4px;
     text-transform: uppercase;
     margin: 15px 0;
@@ -37,7 +37,7 @@ body {
 
 .text-banner {
     font-size: 1.2rem;
-    color: #CCCCCC;
+    color: #fcfbfb;
     text-transform: uppercase;
 }
 
