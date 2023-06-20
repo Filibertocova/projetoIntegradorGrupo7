@@ -11,7 +11,7 @@
 }
 .banner-contato{
     min-height: 100vh;
-    margin: 20px; 
+    margin-top: 30px; 
     display: flex;
     align-items: center;
     justify-content: flex-end;
