@@ -78,3 +78,7 @@ form button{
     border-radius: 15px;
     background-color: var(--text-footer);
 }
+
+.cadastre {
+    color: black;
+}
