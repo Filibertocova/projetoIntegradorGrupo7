@@ -4,70 +4,302 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title>Produtos</title>
-
-		
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../assets/css/global.css">
+		<link rel="stylesheet" href="../assets/css/produtos.css">
 		
 	</head>
 	
 	<body>
-		<header>
-			<div class="caixa">
-        
-				<h1><a href="./index.html"><img width="20%" height="20%" class="logo1" src="../assets/Image/logo.png" ></a></h1>
-				<nav>
-					<ul>
-						<li><a href="./produtos.html">Produtos</a></li>
-						<li><a href="./contato.html">Contato</a></li>
-						<li><a href="./quemSomos.html">Quem somos</a></li>
-						<li><a href="./login.html">Minha Conta</a></li>
-						<li><a href="#"><img width="20px" src="../assets/Image/home/icons/carrinho-verde.png" alt="carrinho da cor verde claro"></a></li>
-						
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<img width="15px" src="../assets/Image/home/icons/lupa.png" alt="Buscar..." /><input type="text" placeholder="Buscar produto"/><button>Buscar</button>
+		<!-- Inicio Header -->
+		<header class="header">
+			<a href="./index.html"><img  src="../assets/Image/logo (1).png" alt="logo agora," ></a>
+			<nav>
+				<ul class="menu">
+					<li><a href="./produtos.html">Produtos</a></li>
+					<li><a href="./contato.html">Contato</a></li>
+					<li><a href="./quemSomos.html">Quem Somos</a></li>
+					<li><a href="./login.html"> Minha Conta</a></li>
+					<li><a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a></li>
+				</ul>
+			</nav>
+	</header>
+	<div class="search">
+		<div class="search-bar">
+			<input type="search" name="pesquisar" id="pesquisar" placeholder="Buscar produtos...">
+			<label for="pesquisar"><img height="20px" src="../assets/Image/home/icons/lupa.png" alt="lupa preta"></label>
+		</div>
+	</div>
 		<main>
-			<table>		
+			<section class="product-container">
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image" alt="DJI Mavic Air 2">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">DJI Mavic Air 2</h3>
+						<p class="product-price">R$ 4.999,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
 				
-				<tr>	
-					<td>
-						<img width="87%" height="87%" src="../assets/Image/agricolas.jpg">
-					<a href="./produtosAgricolas.html">Produtos Agrícolas</a>
-					</td>
-					<td>
-						<img width="85%" height="85%" src="../assets/Image/pecuarios.jpg">
-						<a href="./produtosPecuarios.html">Produtos Pecuários</a>
-					</td>
-				</tr>	
-				<tr>
-					<td>
-						<img width="87%" height="87%" src="../assets/Image/inovacao.jpg">
-						<a href="./Inovacao.html">Inovação</a>
-					</td>
-					
-					<td>
-						<img width="85%" height="85%" src="../assets/Image/maquinaria.jpg">
-						<a href="./maquinasEequipamentos.html">Máquinas e equipamentos</a>
-					</td>
-					
-					
-				</tr>	
-			</table>		
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/home/produtos/doce-de-leite.png" alt="Autel Evo II">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Autel Evo II</h3>
+						<p class="product-price">R$ 7.499,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone3.jpg" alt="Parrot Anafi">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Parrot Anafi</h3>
+						<p class="product-price">R$ 3.499,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone4.jpg" alt="DJI Phantom 4 Pro">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">DJI Phantom 4 Pro</h3>
+						<p class="product-price">R$ 9.999,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone5.jpg" alt="DJI Mini 2">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">DJI Mini 2</h3>
+						<p class="product-price">R$ 2.999,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone6.jpg" alt="Yuneec Typhoon H Pro">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Yuneec Typhoon H Pro</h3>
+						<p class="product-price">R$ 6.799,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone7.jpg" alt="Autel Robotics X-Star Premium">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Autel Robotics X-Star Premium</h3>
+						<p class="product-price">R$ 4.299,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone8.jpg" alt="Holy Stone HS720">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Holy Stone HS720</h3>
+						<p class="product-price">R$ 1.999,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone9.jpg" alt="DJI Inspire 2">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">DJI Inspire 2</h3>
+						<p class="product-price">R$ 17.999,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/drone10.jpg" alt="Ryze Tello">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Ryze Tello</h3>
+						<p class="product-price">R$ 499,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/tomate.jpg" alt="Semente de tomate Heirloom">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Semente tomate Heirloom</h3>
+						<p class="product-price">R$ 2,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/alface.jpg" alt="Semente de alface Iceberg">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Semente de alface Iceberg</h3>
+						<p class="product-price">R$ 3,00</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/cenoura.jpg" alt="Semente de cenoura Nantes">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Semente de cenoura Nantes</h3>
+						<p class="product-price">R$ 1,50</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/milho.jpg" alt="Semente de milho">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Semente de milho</h3>
+						<p class="product-price">R$ 2,50</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/soja.jpg" alt="Semente de soja">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Semente de soja</h3>
+						<p class="product-price">R$ 3,50</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/arroz.jpg" alt="Arroz branco">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">Semente de arroz</h3>
+						<p class="product-price">R$ 2,00/kg</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
+				
+				<div class="product-card">
+					<div class="product-image">
+						<img src="../assets/Image/feijao.jpg" alt="Feijão preto">
+					</div>
+					<div class="product-details">
+						<h3 class="product-name">semente Feijão preto</h3>
+						<p class="product-price">R$ 3,00/kg</p>
+						<p class="free">Frete Grátis</p>
+					</div>
+				</div>
 
-			
+				<div class="product-card">
+					<div class="product-image">
+					  <img src="../assets/Image/feijao-verde.jpg" alt="Feijão verde">
+					</div>
+					<div class="product-details">
+					  <h3 class="product-name">semente Feijão verde</h3>
+					  <p class="product-price">R$ 4,00/kg</p>
+					  <p class="free">Frete Grátis</p>
+					</div>
+				  </div>
+				
+				  <div class="product-card">
+					<div class="product-image">
+					  <img src="../assets/Image/feijao-carioca.jpg" alt="Feijão carioca">
+					</div>
+					<div class="product-details">
+					  <h3 class="product-name">semente Feijão carioca</h3>
+					  <p class="product-price">R$ 3,50/kg</p>
+					  <p class="free">Frete Grátis</p>
+					</div>
+				  </div>
+
+				  <div class="product-card">
+					<div class="product-image">
+					  <img src="../assets/Image/cevada.jpg" alt="Cevada em grãos">
+					</div>
+					<div class="product-details">
+					  <h3 class="product-name">Cevada</h3>
+					  <p class="product-price">R$ 3,00/kg</p>
+					  <p class="free">Frete Grátis</p>
+					</div>
+				  </div>
+				
+				  <div class="product-card">
+					<div class="product-image">
+					  <img src="../assets/Image/aveia.jpg" alt="Aveia em flocos">
+					</div>
+					<div class="product-details">
+					  <h3 class="product-name">semente Aveia</h3>
+					  <p class="product-price">R$ 4,50/kg</p>
+					  <p class="free">Frete Grátis</p>
+					</div>
+				  </div>
+			</section>
+			  
 		</main>
 
-		<footer>
-			<img width="7%" class="logo2" src="../assets/Image/logo.png">
-			<br>
-			<a href="#"><img src="../assets/Image/footer/redes-sociais/facebook.png" alt="icone do facebook" width="20px"></a>
-			<a href="#"><img src="../assets/Image/footer/redes-sociais/instagram.png" alt="icone do facebook" width="20px"></a>
-			<a href="#"><img src="../assets/Image/footer/redes-sociais/youtube.png" alt="icone do facebook" width="22px"></a>
-			<p class="copyright">&copy; Copyright Agora - 2023</p>
-		</footer>
+		<footer class="footer">
+			<div class="footer-section">
+				<h4>Atendimento</h4>
+				<span>Horário de atendimento:</span>
+				<br>
+				<span>Segunda a Sexta: 08:00 - 18:00</span>
+				<br>
+				<span>Sábado: 08:00 - 14:00</span>
+				<br>
+				<span>Rua: Rua dos Agricultores, 123</span>			
+			</div>
+		  
+			<div class="footer-section">
+				<h4>Ajuda</h4>
+				<ul>
+					<li><a href="./devolucao.html">Política de Devolução</a></li>
+					<li><a href="./entrega.html">Informação de Envio</a></li>
+					<li><a href="./contato.html">Fale Conosco</a></li>
+				</ul>
+			</div>
+		  
+			<div class="footer-section">
+				<ul class="social-media">
+					<li><a href="#"><img width="20px" src="../assets/Image/footer/redes-sociais/facebook-logo.png" alt="Facebook"></a></li>
+					<li><a href="#"><img width="20px" src="../assets/Image/footer/redes-sociais/instagram.png" alt="Instagram"></a></li>
+					<li><a href="#"><img width="20px" src="../assets/Image/footer/redes-sociais/youtube.png" alt="YouTube"></a></li>
+				</ul>
+			</div>
+		  
+			<div class="footer-logo">
+				<a href="./index.html"><img width="35px" height="35px" src="../assets/Image/logo (1).png" alt="Logo Agora"></a>
+				<br>
+				<span>&copy; Agora - 2023</span>
+			</div>
+		  </footer>
 		<script src="main.js"></script>
 	</body>
 </html>

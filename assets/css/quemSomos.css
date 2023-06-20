@@ -1,0 +1,181 @@
+/* Iniico Banner */
+
+
+
+.banner {
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../Image/home/imagem-fundo/pessoas-cuidando-da-fazenda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+}
+
+.title-banner h3 {
+    color: #01090c;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+/* Fim Banner */
+
+/* Inicio apresentação */
+
+.presentation {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    background-color: #191919;
+}
+  
+.presentation .presentation-text {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0 20px;
+    color: #fefefe;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.presentation .presentation-text span{
+    color: #B4D565;
+}
+
+/* Fim apresentação */
+
+/* Inicio valores empresa */
+
+.value {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 15px 0;
+    background-color: #EBEBEB;
+}
+
+.title-value {
+    text-transform: uppercase;
+    text-align: center;
+    color: #9FCC66;
+    margin-top: 40px;
+}
+
+.value-icons {
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.value:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.value img {
+    width: 90%;
+    margin: 0 0 10px;
+}
+
+.value h5 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 6px;
+    line-height: 1;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.value:nth-child(1) h5 {
+    background-color: #4CAF50;
+}
+
+.value:nth-child(2) h5 {
+    background-color: #2196F3;
+}
+
+.value:nth-child(3) h5 {
+    background-color: #4CAF50;
+}
+
+.value:nth-child(4) h5 {
+    background-color: #2196F3;
+}
+.value:nth-child(5) h5 {
+    background-color: #4CAF50;
+}
+
+
+/* Fim valores empresa */
+
+/* Inicio negocios */
+.business {
+    display: flex;
+    align-items: center;
+    background-color: #345039;
+    margin: 0 40px;
+}
+
+
+.business .business-text {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0 20px;
+    color: #B4D661;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.business-text2 {
+    color: #191919;
+}
+
+/* Fim negocios */
+
+.values-section {
+    background-color: #F3F3F3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+  }
+  
+  .values-section h2 {
+    color: #64b445;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    padding: 10px 0 ;
+  }
+  
+  .values-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .values-section li {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+  .values-section li:before {
+    content: "•";
+    color: #FF5F6D;
+    font-weight: bold;
+  }
+  
+
+  

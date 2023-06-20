@@ -84,8 +84,6 @@ body {
 
 /* inicio value-icons */
 
-
-
 .value-icons {
     padding: 40px 80px;
     display: flex;
@@ -149,8 +147,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-  }
+    margin: 0 40px
+}
   
   .product-card {
     flex-basis: 26%;
@@ -159,15 +157,15 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     cursor: pointer;
-  }
+}
 
   .product-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+}
 
   .product-container:nth-child(2n +1) {
     margin-left: 30px;
-  }
+}
   
 .product-image {
     width: 100%;
@@ -215,7 +213,7 @@ body {
     background-image: url("../Image/home/imagem-fundo/drone10.png   ");
     background-size: cover;
     background-position: center;
-    height: 300px; 
+    height: 300px;
 }
   
 .separate-section p  {
@@ -240,6 +238,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 40px;
 }
   
 .card {
@@ -277,8 +276,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 40px;
     text-align: left;
+    margin-top: 50px;
 }
    
 .newsletter-container h3 {
@@ -332,7 +332,45 @@ body {
 
 /* Fim NewsLetter */
 
+/* Responsivo */
 
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+  
+    .menu li {
+      margin-left: 0;
+      margin-bottom: 5px;
+    }
+  
+    .footer-section {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer-section {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .header {
+      padding: 5px 10px;
+    }
+  
+    .menu a {
+      padding: 0 5px;
+    }
+  }
   
   
   
