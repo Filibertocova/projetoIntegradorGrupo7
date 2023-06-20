@@ -10,8 +10,8 @@
     background-color: #ebebeb;
 }
 .banner-contato{
-    min-height: 40vw; 
-
+    min-height: 100vh;
+    margin: 20px; 
     display: flex;
     align-items: center;
     justify-content: flex-end;

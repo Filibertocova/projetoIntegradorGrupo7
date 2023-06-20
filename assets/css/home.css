@@ -21,10 +21,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../Image/home/imagem-fundo/dronee.png);
+    background: url(../Image/home/imagem-fundo/farm-worker-driving-tractor-spraying-green-meadow-generated-by-ai.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top:60px;
    
 }
 
