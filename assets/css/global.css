@@ -100,6 +100,34 @@
     color: var(--text-test);
 }
 
+/* responsivo */
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+  
+    .menu li {
+      margin-left: 0;
+      margin-bottom: 5px;
+    }
+  
+    .footer-section {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer-section {
+      flex-basis: 100%;
+    }
+  }
 
 
 
