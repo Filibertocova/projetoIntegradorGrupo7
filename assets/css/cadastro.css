@@ -9,23 +9,6 @@
 #body-contato{
     background-color: #ebebeb;
 }
-.banner-contato{
-    min-height: 40vw; 
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background: url(../Images/mulher-de-negocios-em-um-escritorio-de-call-center.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.banner-contato-titulo{
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: flex-end;
-    width: 500px;
-
-}
 
 .form-contato{
     display: flex;
@@ -35,6 +18,119 @@
     padding: 10px 50px;
     background-color: rgb(255, 255, 255);
     width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.form-titulo{
+    color: black;
+    font-size: 2.5rem;
+    padding: 10px 0 30px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+
+form label{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form input{
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #ebebeb;
+}
+
+form button{
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: var(--text-footer);
+}
+
+/*fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e8c609;
+    border-radius: 2rem;
+    width: 370px;
+    height: 370px;
+    padding: 1rem;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9cff7b;
+    border-radius: 2rem;
+    width: 370px;
+    height: 370px;
+    padding: 1rem;
+}
+
+.label {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    background-color: whites;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-bottom: 0.8rem;
+    padding-left: 0.8rem;
+}
+
+.input:placeholder{
+    color: black;
+}
+
+#submit {
+    width: 200px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}*/
+
+
+
+/*.form-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 50px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
     margin: 30px auto;
     border-radius: 15px;
     
@@ -46,6 +142,7 @@
     padding: 10px 0 30px 0;
     
 }
+
 form{
     display: flex;
     flex-direction: column;
@@ -67,26 +164,7 @@ form input{
     border-radius: 15px;
     background-color: #ebebeb;
 }
-form textarea{
-    padding: 10px;
-    outline: none;
-    margin-bottom: 20px;
-    font-size: 15px;
-    border-radius: 15px;
-    background-color: #ebebeb;
-}
-form fieldset{
-    color: black;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-form fieldset select{
-    padding: 10px;
-    outline: none;
-    margin-bottom: 20px;
-    font-size: 15px;
-    border-radius: 15px;
-}
+
 form button{
     padding: 10px;
     outline: none;
@@ -94,4 +172,4 @@ form button{
     font-size: 15px;
     border-radius: 15px;
     background-color: var(--text-footer);
-}
+}*/
