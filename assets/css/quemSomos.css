@@ -14,8 +14,15 @@
     margin-bottom: 60px;
 }
 
-.title-banner h3 {
-    color: #01090c;
+.title-banner {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.title-banner-titulo{
+    color: #99CC66;
     font-size: 1.5rem;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -40,6 +47,9 @@
     color: #fefefe;
     line-height: 2rem;
     font-weight: bold;
+}
+.apresentation-image{
+    width: 100%;
 }
 
 .presentation .presentation-text span{

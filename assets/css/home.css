@@ -2,9 +2,10 @@
     --search: #3a9943;
     --body: #EBEBEB;
     --value: #335039;
-    --text-value: #B4D565;
+    --text-value: #99CC66;
     --button: #70AD47;
     --search-bar: #F0F0F0;
+
 
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 .search-bar{
-    border:  1px solid green;
+    border:  1px solid #99CC66;
 }
 
 .search-bar label {
@@ -119,7 +120,7 @@ body {
     line-height: 1;
     border-radius: 4px;
     
-    background-color: var(--value);
+    background-color: #99CC66;
 }
 
 .value:nth-child(2) h5 {
@@ -257,8 +258,8 @@ body {
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 80%;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -272,7 +273,7 @@ body {
 
 /* Inicio NewsLetter */
 .newsletter-container {
-    background-color: #334F38;
+    background-color: #99CC66;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -285,12 +286,12 @@ body {
     font-size: 1.7rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #fff;
+    color: black;
 }
   
 .newsletter-container h4 {
     font-size: 1.1rem;
-    color: #fff;
+    color: black;
 }
   
 .newsletter-form {
@@ -320,7 +321,7 @@ body {
     border: none;
     border-radius: 8px;
     background-color: #70AD47;
-    color: #FFF;
+    color: black;
     font-size: .875rem;
     font-weight: bold;
     cursor: pointer;

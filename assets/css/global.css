@@ -48,7 +48,7 @@
 
 /* Nosso footer */
 .footer {
-    background: linear-gradient(120deg, #0D2711, #203323);
+    background: #38583D;
     padding: 25px 0 25px 25px;
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,7 @@
 }
   
 .footer a {
-    color: #ffffff;
+    color: #fff;
 }
   
 .footer a:hover {
