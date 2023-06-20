@@ -48,9 +48,7 @@
     line-height: 2rem;
     font-weight: bold;
 }
-.apresentation-image{
-    width: 100%;
-}
+
 
 .presentation .presentation-text span{
     color: #B4D565;
@@ -130,10 +128,14 @@
 .business {
     display: flex;
     align-items: center;
+    justify-content: end;
     background-color: #345039;
     margin: 0 40px;
 }
-
+.business-image{
+    width: 100%;
+    height: auto;
+}
 
 .business .business-text {
     font-size: 1.2rem;
