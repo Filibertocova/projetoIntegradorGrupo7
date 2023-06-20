@@ -4,51 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=""">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
     <title>cadastro</title>
+    <link rel="shortcut icon" href="../assets/Image/logo.png" type="image/x-icon">
 </head>
-<body>
-    <header>
-        <div class="caixa">
-            <img width="20%" height="20%" class="logo1" src="">
-            <h1>Cadastre-se e receba vantangens</h1>
-            <nav>
-                <ul>
-                    <li><a href="./produtos.html">Produtos</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
-                    <li><a href="./quemSomos.html">Quem somos</a></li>
-                    <li><a href="./login.html">Quem somos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<body id="body-contato">
+    <header class="header">
+        <a href="./index.html" ><img  src="../assets/Image/logo (1).png" alt="logo agora," ></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./quemSomos.html">Quem Somos</a></li>
+                <li><a href="./login.html"> Minha Conta</a></li>
+                <li><a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a></li>
+            </ul>
+        </nav>
+</header>
 
     <main>
-        <section class="container">
+        <section class="form-contato">
+            <h3 class="form-titulo">Fale conosco</h3>
             <form>
-                <fieldset>
-                    <label for="nome" class="label">Nome completo</label>
-                    <input type="text" name="nome" class="input" placeholder="Digite seu nome">
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" class="input-padrao" required>
 
-                    <label for="user" class="label">Nome de usuário</label>
-                    <input type="text" name="nome" class="input" placeholder="Crie seu nome de usuário">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="input-padrao" required>
+                    
+                    <label for="email">Assunto:</label>
+                    <input type="text" id="assunto" class="input-padrao" required>
 
-                    <label for="e-mail" class="label">E-mail</label>
-                    <input type="email" name="email" class="input" placeholder="Cadastre seu e-mail">
-
-                    <label for="senha" class="label">Crie sua senha</label>
-                    <input type="password" name="senha" class="input" placeholder="Cadastre sua senha">
-
-                    <button type="submit" id="submit">Criar</button>
-                </fieldset>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
             </form>
         </section>
     </main>
     
-    <footer>
-        <img width="15%" height="15%" class="logo2"src="">
-        <p class="copyright">&copy; Copyright Agora - 2023</p>
-    </footer>
+</main>
+<footer class="footer">
+    <div class="footer-section">
+        <h4>Atendimento</h4>
+        <span>Horário de atendimento:</span>
+        <br>
+        <span>Segunda a Sexta: 08:00 - 18:00</span>
+        <br>
+        <span>Sábado: 08:00 - 14:00</span>
+        <br>
+        <span>Rua: Rua dos Agricultores, 123</span>			
+    </div>
+  
+    <div class="footer-section">
+        <h4>Ajuda</h4>
+        <ul>
+            <li><a href="./devolucao.html">Política de Devolução</a></li>
+            <li><a href="./entrega.html">Informação de Envio</a></li>
+            <li><a href="./contato.html">Fale Conosco</a></li>
+        </ul>
+    </div>
+  
+    <div class="footer-section">
+        <ul class="social-media">
+            <li><a href="#"><img width="20px" src="../assets/Image/footer/redes-sociais/facebook-logo.png" alt="Facebook"></a></li>
+            <li><a href="#"><img width="20px" src="../assets/Image/footer/redes-sociais/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img width="20px" src="../assets/Image/footer/redes-sociais/youtube.png" alt="YouTube"></a></li>
+        </ul>
+    </div>
+  
+    <div class="footer-logo">
+        <a href="./index.html"><img width="35px" height="35px" src="../assets/Image/logo (1).png" alt="Logo Agora"></a>
+        <br>
+        <span>&copy; Agora - 2023</span>
+    </div>
+  </footer>
     
 </body>
 </html>

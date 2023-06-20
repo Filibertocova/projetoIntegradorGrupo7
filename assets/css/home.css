@@ -28,7 +28,7 @@ body {
 }
 
 .title-banner h1 {
-    color: #065712;
+    color: #FFF;
     letter-spacing: 4px;
     text-transform: uppercase;
     margin: 15px 0;
@@ -37,7 +37,7 @@ body {
 
 .text-banner {
     font-size: 1.2rem;
-    color: #CCCCCC;
+    color: #99CC66;
     text-transform: uppercase;
 }
 

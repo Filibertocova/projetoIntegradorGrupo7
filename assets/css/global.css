@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +7,8 @@
 }
 
 :root {
-    --Header: #063b10da;
-    --text-footer: #B4D562;
+    --Header: #38583D;
+    --text-footer: #99CC66;
 }
 
 /* Nosso header */
@@ -37,7 +36,7 @@
 
 .menu a {
     padding: 0 10px;
-    color: #ccc;
+    color: #fff;
 }
 
 .menu a:hover {
