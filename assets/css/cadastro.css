@@ -187,6 +187,10 @@ h3 {
 
 /* Nosso footer */
 .footer {
+    position: absolute;
+    //top: 90%;
+    //left: 15%;
+    transform: translatey(200%);
     background: linear-gradient(120deg, #0D2711, #203323);
     padding: 25px 0 25px 25px;
     display: flex;
