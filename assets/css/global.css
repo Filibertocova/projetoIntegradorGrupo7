@@ -126,7 +126,8 @@
   @media screen and (max-width: 480px) {
     .footer-section {
       flex-basis: 100%;
-    }
+    } 
+    
   }
 
 
