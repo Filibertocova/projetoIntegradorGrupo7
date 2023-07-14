@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,78 +9,100 @@
     <link rel="stylesheet" href="../assets/css/global.css">
     <title>cadastro</title>
     <link rel="shortcut icon" href="../assets/Image/logo.png" type="image/x-icon">
+    <script src="../JS/search.js"></script>
 </head>
+
 <body id="body-contato">
     <header class="header">
-        <a href="./index.html" ><img  src="../assets/Image/logo (1).png" alt="logo agora," ></a>
+        <a href="./index.html"><img src="../assets/Image/logo (1).png" alt="logo agora,"></a>
+
+        <div>
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+        </div>
         <nav>
             <ul class="menu">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
                 <li><a href="./produtos.html">Produtos</a></li>
                 <li><a href="./contato.html">Contato</a></li>
                 <li><a href="./quemSomos.html">Quem Somos</a></li>
                 <li><a href="./login.html"> Minha Conta</a></li>
-                <li><a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a></li>
+                <li>
+                    <a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a>
+                </li>
+                <p align="center">
+                    <a class="carrinho" href="meuCarrinho.html"> Ver Carrinho de compras </a>
+                </p>
             </ul>
         </nav>
-</header>
+    </header>
 
-<main>
-    <section class="form-contato">
-        <h3 class="form-titulo">Cadastre-se</h3>
-        <form>
-            <label for="nome">Nome completo:</label>
-            <input type="text" name="nome" class="input-padrao" placeholder="Digite seu nome">
+    <main>
+        <section class="form-contato">
+            <h3 class="form-titulo">Cadastre-se</h3>
+            <form>
+                <label for="nome">Nome completo:</label>
+                <input type="text" name="nome" class="input-padrao" placeholder="Digite seu nome">
 
-            <label for="user">Nome de usuário:</label>
-            <input type="text" name="nome" class="input-padrao" placeholder="Crie seu nome de usuário">
+                <label for="user">Nome de usuário:</label>
+                <input type="text" name="nome" class="input-padrao" placeholder="Crie seu nome de usuário">
 
-            <label for="e-mail">E-mail:</label>
-            <input type="email" name="email" class="input-padrao" placeholder="Cadastre seu e-mail">
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="email" class="input-padrao" placeholder="Cadastre seu e-mail">
 
-            <label for="senha">Crie sua senha:</label>
-            <input type="password" name="senha" class="input-padrao" placeholder="Cadastre sua senha">
+                <label for="senha">Crie sua senha:</label>
+                <input type="password" name="senha" class="input-padrao" placeholder="Cadastre sua senha">
 
-            <button type="submit">Criar</button>
-        </form>
-    </section>
-</main>
-    
-</main>
-<footer class="footer">
-    <div class="footer-section">
-        <h4>Atendimento</h4>
-        <span>Horário de atendimento:</span>
-        <br>
-        <span>Segunda a Sexta: 08:00 - 18:00</span>
-        <br>
-        <span>Sábado: 08:00 - 14:00</span>
-        <br>
-        <span>Rua: Rua dos Agricultores, 123</span>			
-    </div>
-  
-    <div class="footer-section">
-        <h4>Ajuda</h4>
-        <ul>
-            <li><a href="./devolucao.html">Política de Devolução</a></li>
-            <li><a href="./entrega.html">Informação de Envio</a></li>
-            <li><a href="./contato.html">Fale Conosco</a></li>
-        </ul>
-    </div>
-  
-    <div class="footer-section">
-        <ul class="social-media">
-            <li><a href="#" target="_blank"><img width="20px" src="../assets/Image/footer/redes-sociais/facebook-logo.png" alt="Facebook"></a></li>
-            <li><a href="#" target="_blank"><img width="20px" src="../assets/Image/footer/redes-sociais/instagram.png" alt="Instagram"></a></li>
-            <li><a href="#" target="_blank"><img width="20px" src="../assets/Image/footer/redes-sociais/youtube.png" alt="YouTube"></a></li>
-        </ul>
-    </div>
-  
-    <div class="footer-logo">
-        <a href="./index.html"><img width="35px" height="35px" src="../assets/Image/logo (1).png" alt="Logo Agora"></a>
-        <br>
-        <span>&copy; Agora - 2023</span>
-    </div>
-  </footer>
-    
+                <button type="submit">Criar</button>
+            </form>
+        </section>
+    </main>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+            <h4>Atendimento</h4>
+            <span>Horário de atendimento:</span>
+            <br>
+            <span>Segunda a Sexta: 08:00 - 18:00</span>
+            <br>
+            <span>Sábado: 08:00 - 14:00</span>
+            <br>
+            <span>Rua: Rua dos Agricultores, 123</span>
+        </div>
+
+        <div class="footer-section">
+            <h4>Ajuda</h4>
+            <ul>
+                <li><a href="./devolucao.html">Política de Devolução</a></li>
+                <li><a href="./entrega.html">Informação de Envio</a></li>
+                <li><a href="./contato.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <ul class="social-media">
+                <li>
+                    <a href="#" target="_blank"><img width="20px" src="../assets/Image/footer/redes-sociais/facebook-logo.png" alt="Facebook"></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img width="20px" src="../assets/Image/footer/redes-sociais/instagram.png" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><img width="20px" src="../assets/Image/footer/redes-sociais/youtube.png" alt="YouTube"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-logo">
+            <a href="./index.html"><img width="35px" height="35px" src="../assets/Image/logo (1).png" alt="Logo Agora"></a>
+            <br>
+            <span>&copy; Copyright Agora - 2023</span>
+        </div>
+    </footer>
+
 </body>
+
 </html>
