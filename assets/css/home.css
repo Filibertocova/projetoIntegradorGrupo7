@@ -1,0 +1,352 @@
+:root{
+    --search: #3a9943;
+    --body: #EBEBEB;
+    --value: #335039;
+    --text-value: #99CC66;
+    --button: #70AD47;
+    --search-bar: #F0F0F0;
+
+
+}
+
+body {
+    background-color: var(--body);
+}
+
+/* Inicio banner */
+
+.banner {
+    min-height: 90vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../Image/home/imagem-fundo/farm-worker-driving-tractor-spraying-green-meadow-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:60px;
+   
+}
+
+.title-banner h1 {
+    color: #FFF;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 15px 0;
+
+}
+
+.text-banner {
+    font-size: 1.2rem;
+    color: #99CC66;
+    text-transform: uppercase;
+}
+
+/* fim bannner */
+
+/* Inicio search-bar */
+
+.search {
+    padding: 20px 0 0 80px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.search-bar input {  
+    color: #000;
+    font-size: 1.125rem;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.search-bar{
+    border:  1px solid #99CC66;
+}
+
+.search-bar label {
+
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+/* FIm search-bar */
+
+/* inicio value-icons */
+
+.value-icons {
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.value {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(211, 252, 227, 0.479);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.value:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.value img {
+    width: 90%;
+    margin: 0 0 10px;
+}
+
+.value h5 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 6px;
+    line-height: 1;
+    border-radius: 4px;
+    
+    background-color: #99CC66;
+}
+
+.value:nth-child(2) h5 {
+    background-color: #4CAF50;
+}
+
+.value:nth-child(3) h5 {
+    background-color: #2196F3;
+}
+
+.value:last-child h5 {
+    background-color: #E91E63;
+}
+
+/* Inicio produtos em destaque */
+
+.products h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 40px
+}
+  
+  .product-card {
+    flex-basis: 26%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  .product-container:nth-child(2n +1) {
+    margin-left: 30px;
+}
+  
+.product-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+  
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.product-details {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.product-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+  
+.product-price {
+    font-size: 1.125rem;
+    color: #666666;
+    text-align: justify;
+}
+
+.free {
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+    text-align: justify;
+}
+  
+/* Fim produtos em destaque */
+
+/* Inicio separador */
+
+.separate-section {
+    background-image: url("../Image/home/imagem-fundo/drone10.png   ");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+  
+.separate-section p  {
+   font-size: 1.4rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 10px 10px;
+   color: #181717;
+   text-align: justify;
+}
+
+.separate-section {
+    margin: 10px 0 30px;
+}
+
+/* Fim seperador */
+  
+
+/* Inicio categoria produtos */
+
+.category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+  
+.card {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+  
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+  
+.card h4 {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+/* Fim categoria produtos */
+
+/* Inicio NewsLetter */
+.newsletter-container {
+    background-color: #99CC66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    text-align: left;
+    margin-top: 50px;
+}
+   
+.newsletter-container h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+  
+.newsletter-container h4 {
+    font-size: 1.1rem;
+    color: black;
+}
+  
+.newsletter-form {
+    flex-grow: 1;
+}
+  
+.newsletter-inputs {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    flex: 1 1 auto;
+}
+  
+.newsletter-inputs input {
+    padding: 25px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    flex-grow: 1;
+}
+  
+.newsletter-button {
+    flex-grow: 1;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #70AD47;
+    color: black;
+    font-size: .875rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.newsletter-button:hover {
+    background-color: #519E36;
+}
+
+/* Fim NewsLetter */
+
+/* Responsivo */
+
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  

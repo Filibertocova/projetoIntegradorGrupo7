@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/produtos.css">
+    <title>Produtos</title>
+    <link rel="shortcut icon" href="../assets/Image/logo.png" type="image/x-icon">
+    <script src="../JS/search.js"></script>
+</head>
+
+<body>
+    <!-- Inicio Header -->
+    <header class="header">
+        <a href="./index.html"><img src="../assets/Image/logo (1).png" alt="logo agora,"></a>
+        <div>
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./quemSomos.html">Quem Somos</a></li>
+                <li><a href="./login.html"> Minha Conta</a></li>
+                <li>
+                    <li>
+                        <a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a>
+                    </li>
+                    <p align="center">
+                        <a class="carrinho" href="meuCarrinho.html"> Ver Carrinho de compras </a>
+                    </p>
+            </ul>
+        </nav>
+    </header>
+    <div class="search">
+        <div class="search-bar">
+            <input type="search" name="pesquisar" id="pesquisar" placeholder="Buscar produtos...">
+            <label for="pesquisar"><img height="20px" src="../assets/Image/home/icons/lupa.png" alt="lupa preta"></label>
+        </div>
+    </div>
+    <main>
+        <section class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://static.lojadji.com.br/img/32082/norm_1_dji-mini-2-se-fly-combo-more.jpg" alt="DJI Mavic Air 2">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">DJI Mavic Air 2</h3>
+                    <p class="product-price">R$ 4.999,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('DJI Mavic Air 2', document.getElementById('qtd1').value, '4999.00', 1)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://teravirt.s3-accelerate.amazonaws.com/uploads/sites/94/2022/01/1629721039_IMG_1594838.jpg" alt="Autel Evo II">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Autel Evo II</h3>
+                    <p class="product-price">R$ 7.499,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Autel Evo II', document.getElementById('qtd2').value, '7499.00', 2)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://www.sunbeltsales.co.uk/images/thumbs/0002112_parrot-anafi-work-uav_1900.jpeg" alt="Parrot Anafi">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Parrot Anafi</h3>
+                    <p class="product-price">R$ 3.499,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('SParrot Anafi', document.getElementById('qtd3').value, '3499.00', 3)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://d24opie0r44wsr.cloudfront.net/Custom/Content/Products/13/29/1329302_drone-dji-phantom-4-pro-v20_m2_637481239791440424.jpg" alt="DJI Phantom 4 Pro">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">DJI Phantom 4 Pro</h3>
+                    <p class="product-price">R$ 9.999,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd4">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('SDJI Phantom 4 Pro', document.getElementById('qtd4').value, '9999.00', 4)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://static.lojadji.com.br/img/32082/norm_1_dji-mini-2-se-fly-combo-more.jpg" alt="DJI Mini 2">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">DJI Mini 2</h3>
+                    <p class="product-price">R$ 2.999,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd5">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('SDJI Mini 2', document.getElementById('qtd5').value, '2999.00', 5)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://s2.glbimg.com/SL1sXXXSEi441srhjFfeco6ykpo=/0x0:695x392/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/k/L/b1JRPRTsaSTJa4doJJvQ/2016-07-04-typhoon-h-pro.png" alt="Yuneec Typhoon H Pro">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Yuneec Typhoon H Pro</h3>
+                    <p class="product-price">R$ 6.799,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd6">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Yuneec Typhoon H Pro', document.getElementById('qtd6').value, '6799.00', 6)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://img.nauticexpo.com/pt/images_ne/photo-mg/70426-12466200.jpg" alt="Autel Robotics X-Star Premium">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Autel Robotics X-Star Premium</h3>
+                    <p class="product-price">R$ 4.299,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd7">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Autel Robotics X-Star Premium', document.getElementById('qtd7').value, '4299.00', 7)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_719888-MLA45630607657_042021-O.webp" alt="Holy Stone HS720">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Holy Stone HS720</h3>
+                    <p class="product-price">R$ 1.999,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd8">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Holy Stone HS720', document.getElementById('qtd8').value, '1999.00', 8)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://www5.djicdn.com/cms/uploads/170ea226d3b390170fa0114766b4af25@374*374.jpg" alt="DJI Inspire 2">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">DJI Inspire 2</h3>
+                    <p class="product-price">R$ 17.999,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd9">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('DJI Inspire 2', document.getElementById('qtd9').value, '17999.00', 9)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://a-static.mlcdn.com.br/450x450/drone-ryze-tello-combo-com-camera-hd-controle-remoto/magazineluiza/222441400/912be82555faad7d5c7ce91563312c2c.jpg" alt="Ryze Tello">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Ryze Tello</h3>
+                    <p class="product-price">R$ 499,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd10">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Ryze Tello', document.getElementById('qtd10').value, '499.00', 10)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_16834-MLB20127326735_072014-O.webp" alt="Semente de tomate Heirloom">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Semente tomate Heirloom</h3>
+                    <p class="product-price">R$ 2,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd11">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Semente tomate Heirloom', document.getElementById('qtd11').value, '2.00', 11)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_693418-MLB50471335591_062022-O.webp" alt="Semente de alface Iceberg">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Semente de alface Iceberg</h3>
+                    <p class="product-price">R$ 3,00</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd12">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Semente de alface Iceberg', document.getElementById('qtd12').value, '3.00', 12)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="../assets/Image/cenoura.jpg" alt="Semente de cenoura Nantes">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Semente de cenoura Nantes</h3>
+                    <p class="product-price">R$ 1,50</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd13">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Semente de cenoura Nantes', document.getElementById('qtd13').value, '1.50', 13)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1103256/sementes_de_milho_cativerde_02_1kg_505095475_1_f082e288cab3218222bc010a14899eaf.jpg" alt="Semente de milho">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Semente de milho</h3>
+                    <p class="product-price">R$ 2,50</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd14">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Semente de milho', document.getElementById('qtd14').value, '2.50', 14)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://terramagna.com.br/wp-content/uploads/2021/08/capa-blog-20.png" alt="Semente de soja">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Semente de soja</h3>
+                    <p class="product-price">R$ 3,50</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd15">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Semente de soja', document.getElementById('qtd15').value, '3.50', 15)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://2.bp.blogspot.com/-gGOAHdZijDk/Vc3lo7zHL2I/AAAAAAAAHRk/OImftodaJyk/s1600/images.jpg" alt="Arroz branco">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Semente de arroz</h3>
+                    <p class="product-price">R$ 2,00/kg</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd16">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Semente de arroz', document.getElementById('qtd16').value, '2.00', 16)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://maissoja.com.br/wp-content/uploads/2017/01/feij%C3%A3o.jpg" alt="Feijão preto">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">semente Feijão preto</h3>
+                    <p class="product-price">R$ 3,00/kg</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd17">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('semente Feijão preto', document.getElementById('qtd17').value, '3.00', 17)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://ootimista.com.br/wp-content/uploads/2023/04/b-b45d829f0d664004bd8cc4f1b70cbda4.jpeg" alt="Feijão verde">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">semente Feijão verde</h3>
+                    <p class="product-price">R$ 4,00/kg</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd18">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('semente Feijão verde', document.getElementById('qtd18').value, '4.00', 18)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://www.agronorte.com.br/imgProdutos/produto_12_5a32740917c85.jpg" alt="Feijão carioca">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">semente Feijão carioca</h3>
+                    <p class="product-price">R$ 3,50/kg</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd19">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('semente Feijão carioca', document.getElementById('qtd19').value, '3.50', 19)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://alavoura.com.br/wp-content/uploads/2021/06/farmer-holds-barley-grain-in-his-hands-picture-id1265082239-750x420-1.jpeg" alt="Cevada em grãos">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Cevada</h3>
+                    <p class="product-price">R$ 3,00/kg</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd20">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Cevada', document.getElementById('qtd20').value, '3.00', 20)"> Comprar </button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://brunopolis.sc.gov.br/uploads/sites/393/2022/05/3280856.jpeg" alt="Aveia em flocos">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">semente Aveia</h3>
+                    <p class="product-price">R$ 4,50/kg</p>
+                    <p class="free">Frete Grátis</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd21">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('semente Aveia', document.getElementById('qtd21').value, '4.50', 21)"> Comprar </button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+            <h4> Atendimento
+            </h4>
+            <span> Horário de atendimento:
+                        </span>
+            <br>
+            <span> Segunda a Sexta: 08: 00 - 18: 00
+                                    </span>
+            <br>
+            <span> Sábado: 08: 00 - 14: 00
+                                                </span>
+            <br>
+            <span> Rua: Rua dos Agricultores, 123
+                                                            </span>
+        </div>
+
+        <div class="footer-section">
+            <h4> Ajuda
+            </h4>
+            <ul>
+                <li>
+                    <a href="./devolucao.html"> Política de Devolução
+                                                                                            
+                    </a>
+                </li>
+                <li>
+                    <a href="./entrega.html"> Informação de Envio
+                                                                                                        
+                    </a>
+                </li>
+                <li>
+                    <a href="./contato.html"> Fale Conosco
+                                                                                                                    
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <ul class="social-media">
+                <li>
+                    <a href="#">
+                        <img width="20px" src="../assets/Image/footer/redes-sociais/facebook-logo.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="20px" src="../assets/Image/footer/redes-sociais/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="20px" src="../assets/Image/footer/redes-sociais/youtube.png" alt="YouTube">
+                        <li /a>
+                        </li>
+            </ul>
+        </div>
+
+        <div class="footer-logo">
+            <a href="./index.html">
+                <img width="35px" height="35px" src="../assets/Image/logo (1).png" alt="Logo Agora">
+            </a>
+            <br>
+            <span>&copy; Copyright Agora - 2023
+                                                                                                                                                                                                                                
+            </span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
