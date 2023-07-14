@@ -1,9 +1,7 @@
 /* Iniico Banner */
 
-
-
 .banner {
-    height:150vh;
+    height: 150vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +10,6 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 60px;
-
 }
 
 .title-banner {
@@ -22,7 +19,8 @@
     text-transform: uppercase;
     margin: 15px 0;
 }
-.title-banner-titulo{
+
+.title-banner-titulo {
     color: #99CC66;
     font-size: 1.5rem;
     letter-spacing: 4px;
@@ -30,7 +28,9 @@
     margin: 15px 0;
 }
 
+
 /* Fim Banner */
+
 
 /* Inicio apresentação */
 
@@ -40,7 +40,7 @@
     margin: 0 40px;
     background-color: #191919;
 }
-  
+
 .presentation .presentation-text {
     font-size: 1.2rem;
     text-align: justify;
@@ -50,12 +50,13 @@
     font-weight: bold;
 }
 
-
-.presentation .presentation-text span{
+.presentation .presentation-text span {
     color: #B4D565;
 }
 
+
 /* Fim apresentação */
+
 
 /* Inicio valores empresa */
 
@@ -84,8 +85,7 @@
     flex-wrap: wrap;
 }
 
-
-.value:hover{
+.value:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -118,6 +118,7 @@
 .value:nth-child(4) h5 {
     background-color: #2196F3;
 }
+
 .value:nth-child(5) h5 {
     background-color: #4CAF50;
 }
@@ -125,7 +126,9 @@
 
 /* Fim valores empresa */
 
+
 /* Inicio negocios */
+
 .business {
     display: flex;
     align-items: center;
@@ -133,7 +136,8 @@
     background-color: #345039;
     margin: 0 40px;
 }
-.business-image{
+
+.business-image {
     width: 100%;
     height: auto;
 }
@@ -151,44 +155,48 @@
     color: #191919;
 }
 
+
 /* Fim negocios */
 
 .values-section {
     background-color: #F3F3F3;
     padding: 20px;
     display: flex;
-    flex-direction: column;
-    margin: 20px 40px;
-  }
-  
-  .values-section h2 {
+    flex-direction: row;
+    /* margin: 20px 20px; */
+    width: 39%;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex: 0 1;
+    flex-basis: 200px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.values-section h2 {
     color: #64b445;
     font-size: 2rem;
     margin-bottom: 20px;
     margin-left: 27px;
-    padding: 10px 0 ;
-  }
-  
-  .values-section ul {
+    padding: 10px 0;
+}
+
+.values-section ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-  }
-  
-  .values-section li {
+}
+
+.values-section li {
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 10px;
     padding-left: 20px;
     color: #777777;
-    margin-bottom: 20px;
-  }
-  
-  .values-section li:before {
+}
+
+.values-section li:before {
     content: "•";
     color: #FF5F6D;
     font-weight: bold;
-  }
-  
-
-  
+}

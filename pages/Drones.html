@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/produtos.css">
+    <title>Drones</title>
+    <link rel="shortcut icon" href="../assets/Image/logo.png" type="image/x-icon">
+    <script src="../JS/search.js"></script>
+</head>
+
+<body>
+    <!-- Inicio Header -->
+    <br>
+    <br>
+    <br>
+    <header class="header">
+        <a href="./index.html"><img src="../assets/Image/logo (1).png" alt="logo agora,"></a>
+        <div>
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./quemSomos.html">Quem Somos</a></li>
+                <li><a href="./login.html"> Minha Conta</a></li>
+                <li>
+                    <li>
+                        <a href="#"><img width="35px" height="35px" src="../assets/Image/home/icons/carrinho2.png" alt="Imagem de um carrinho de compras verde"></a>
+                    </li>
+                    <p align="center">
+                        <a class="carrinho" href="meuCarrinho.html"> Ver Carrinho de compras </a>
+                    </p>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="corpo"> <br>
+        <br>
+        <br>
+        <section class="drone-video">
+
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L5gFZCnDS3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <br>
+        <br>
+        <br>
+
+
+        <section class="drones">
+            <h2 class="drone-name">Drone pulverizador</h2>
+
+            <img class="drone-image" src="../assets/Image/dronepulverizador.jpg" class="image_produto">
+
+            <div class="drone-details">
+                <p class="drone-descripcao">Pode carregar mais de 20 litros de produto de uma só vez. Substituindo os sistemas tradicionais de pulverização.</p>
+                <p class="price">R$ a consultar</p>
+                <button>Comprar Serviços</button>
+                <p class="price">Rs 200,00</p>
+                Horas:<input type="number" value="1" min="1" max="10" id="qtd30">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Soja Grãos Para Plantar', document.getElementById('qtd30').value, '20.00', 30)"> Comprar </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="drones ">
+            <h2 class="drone-name">Drone para mapeamento aéreo</h2>
+
+            <img class="drone-image " src="../assets/Image/dronemapeamento.jpg " class="image_produto ">
+
+            <div class="drone-details">
+                <p class="drone-descripcao">São comuns nas lavouras e podem ser de asa fixa ou rotativa. Eles utilizam diferentes tipos de sensores para gerar mapas dos terrenos cobrindo grandes áreas.</p>
+                <p class="price">R$ a consultar</p>
+                <button>Comprar Serviços</button>
+                <p class="price">Rs 200,00</p>
+                Horas: <input type="number" value="1" min="1" max="10" id="qtd30">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Soja Grãos Para Plantar', document.getElementById('qtd30').value, '20.00', 30)"> Comprar </button>
+
+            </div>
+        </section>
+
+        <section class="drones ">
+            <h2 class="drone-name">Drone para monitoramento</h2>
+
+            <img class="drone-image" src="../assets/Image/dronemonitoreamento.jpg " class="image_produto ">
+
+            <div class="drone-details">
+                <p class="drone-descripcao">Podem ser utilizados para identificação de focos de incêndios, áreas desmatadas, nascentes de rios ou olhos d’água, áreas para aberturas de estradas, localização de rebanho perdido ou até mesmo para vigilância.</p>
+                <p class="price">R$ a consultar</p>
+                <button>Comprar Serviços</button>
+                <p class="price">Rs 200,00</p>
+                Horas:<input type="number" value="1" min="1" max="10" id="qtd30">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Soja Grãos Para Plantar', document.getElementById('qtd30').value, '20.00', 30)"> Comprar </button>
+
+            </div>
+        </section>
+
+        <section class="drones ">
+
+            <h2 class="drone-name">Outros Modelos Disponíveis</h2>
+
+            <img class="drone-image" src="../assets/Image/dronepelicano.jpg " class="image_produto ">
+
+            <div class="drone-details">
+                <p class="drone-descripcao">DJI Agras T30,SkyDrones Pelicano, Dractor 25A,Joyance JT 30-606</p>
+                <p class="price">R$ a consultar</p>
+                <button>Comprar Serviços</button>
+                <p class="price">Rs 200,00</p>
+                Horas:<input type="number" value="1" min="1" max="10" id="qtd30">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Soja Grãos Para Plantar', document.getElementById('qtd30').value, '20.00', 30)"> Comprar </button>
+
+            </div>
+            </div>
+        </section>
+        <br>
+        <br>
+
+
+    </main>
+
+    <footer class="footer ">
+        <div class="footer-section ">
+            <h4>Atendimento</h4>
+            <span>Horário de atendimento:</span>
+            <br>
+            <span>Segunda a Sexta: 08:00 - 18:00</span>
+            <br>
+            <span>Sábado: 08:00 - 14:00</span>
+            <br>
+            <span>Rua: Rua dos Agricultores, 123</span>
+        </div>
+
+        <div class="footer-section ">
+            <h4>Ajuda</h4>
+            <ul>
+                <li><a href="./devolucao.html ">Política de Devolução</a></li>
+                <li><a href="./entrega.html ">Informação de Envio</a></li>
+                <li><a href="./contato.html ">Fale Conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section ">
+            <ul class="social-media ">
+                <li>
+                    <a href="# " target="_blank "><img width="20px " src="../assets/Image/footer/redes-sociais/facebook-logo.png " alt="Facebook "></a>
+                </li>
+                <li>
+                    <a href="# " target="_blank "><img width="20px " src="../assets/Image/footer/redes-sociais/instagram.png " alt="Instagram "></a>
+                </li>
+                <li>
+                    <a href="# " target="_blank "><img width="20px " src="../assets/Image/footer/redes-sociais/youtube.png " alt="YouTube "></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-logo ">
+            <a href="./index.html "><img width="35px " height="35px " src="../assets/Image/logo (1).png " alt="Logo Agora "></a>
+            <br>
+            <span>&copy; Copyright Agora - 2023</span>
+        </div>
+    </footer>
+
+    <script src="main.js "></script>
+</body>
+
+</html>
