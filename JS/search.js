@@ -19,6 +19,50 @@ function lightMode() {
     element.className = "light-mode";
     content.innerText = "Dark Mode is OFF";
 }
+
+//Estilizando
+
+
+//Formulario
+const submit = document.getElementById("submit");
+
+submit.addEventListener("click", validate);
+
+function validate(e) {
+    e.preventDefault();
+
+    const firstNameField = document.getElementById("firstname");
+    let valid = true;
+
+    if (!firstNameField.value) {
+        const nameError = document.getElementById("nameError");
+        nameError.classList.add("visible");
+        firstNameField.classList.add("invalid");
+        nameError.setAttribute("aria-hidden", false);
+        nameError.setAttribute("aria-invalid", true);
+    }
+    return valid;
+}
+
+const submit = document.getElementById("submit");
+
+submit.addEventListener("click", validate);
+
+function validate(e) {
+    e.preventDefault();
+
+    const firstNameField = document.getElementById("nome");
+    let valid = true;
+
+    if (!firstNameField.value) {
+        const nameError = document.getElementById("nameError");
+        nameError.classList.add("visible");
+        firstNameField.classList.add("invalid");
+        nameError.setAttribute("aria-hidden", false);
+        nameError.setAttribute("aria-invalid", true);
+    }
+    return valid;
+}
 // carrosel        
 // $(document).ready(function() {
 //     // Activate Carousel
@@ -46,3 +90,34 @@ function lightMode() {
 //         $("#myCarousel").carousel("next");
 //     });
 // })
+
+// Declarando Variaveis
+let inputNome = document.getElementById("nome");
+let inputSobreNome = document.getElementById("sobrenome");
+let inputCpf = document.getElementById("cpf");
+let inputIdade = document.getElementById("idade");
+let inputEmail = document.getElementById("email");
+let inputSenha = document.getElementById("senha");
+let formulario = document.querySelector("form");
+
+
+
+// Evento focus
+inputEmail.addEventListener("focus", () => {
+    inputEmail.style.backgroundColor = "lightgreen"
+});
+
+// Evento  blur
+inputEmail.addEventListener("blur", (e) => {
+    e.target.style.backgroundColor = ""
+});
+
+// Evento  change
+inputIdade.addEventListener("change", () => {
+    alert("Certeza que quer alterar seus dados?")
+});
+
+// Evento  submit
+formulario.addEventListener("submit", () => {
+    alert("Dados enviados com sucesso!")
+});

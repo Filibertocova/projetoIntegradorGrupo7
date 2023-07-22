@@ -6,11 +6,12 @@
     --Header: #063b10da;
     --text-footer: #B4D562;
 }
-#body-contato{
+
+#body-contato {
     background-color: #ebebeb;
 }
 
-.form-contato{
+.form-contato {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,30 +19,30 @@
     padding: 10px 50px;
     background-color: rgb(255, 255, 255);
     width: 500px;
-    height: 500px;
+    height: auto;
     margin: 100px auto;
     border-radius: 15px;
 }
 
-.form-titulo{
+.form-titulo {
     color: black;
     font-size: 2.5rem;
     padding: 10px 0 30px 0;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
-    width: 100%;  
+    width: 100%;
 }
 
-form label{
+form label {
     color: black;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-form input{
+form input {
     padding: 10px;
     outline: none;
     margin-bottom: 20px;
@@ -50,7 +51,7 @@ form input{
     background-color: #ebebeb;
 }
 
-form button{
+form button {
     padding: 10px;
     outline: none;
     margin-bottom: 20px;
@@ -58,6 +59,20 @@ form button{
     border-radius: 15px;
     background-color: var(--text-footer);
 }
+
+#nameError {
+    display: none;
+    font-size: 0.8em;
+}
+
+#nameError.visible {
+    display: block;
+}
+
+input.invalid {
+    border-color: red;
+}
+
 
 /*fieldset {
     display: flex;
@@ -119,7 +134,6 @@ fieldset {
     left: 50%;
     transform: translateX(-50%);
 }*/
-
 
 
 /*.form-contato{

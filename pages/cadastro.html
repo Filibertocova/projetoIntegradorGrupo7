@@ -42,20 +42,26 @@
     <main>
         <section class="form-contato">
             <h3 class="form-titulo">Cadastre-se</h3>
-            <form>
-                <label for="nome">Nome completo:</label>
-                <input type="text" name="nome" class="input-padrao" placeholder="Digite seu nome">
-
-                <label for="user">Nome de usuário:</label>
-                <input type="text" name="nome" class="input-padrao" placeholder="Crie seu nome de usuário">
-
-                <label for="e-mail">E-mail:</label>
-                <input type="email" name="email" class="input-padrao" placeholder="Cadastre seu e-mail">
-
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" class="input-padrao" placeholder="Digite seu nome">
+                <br>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" value="" placeholder="Digite seu sobrenome">
+                <br>
+                <label for="cpf">CPF:</label>
+                <input type="number" name="cpf" id="cpf" class="input-padrao" placeholder="Indique seu CPF">
+                <br>
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="idade" value="" placeholder="Indique seu idade">
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" class="input-padrao" placeholder="Cadastre seu e-mail">
+                <br>
                 <label for="senha">Crie sua senha:</label>
-                <input type="password" name="senha" class="input-padrao" placeholder="Cadastre sua senha">
-
-                <button type="submit">Criar</button>
+                <input type="password" name="senha" id="senha" class="input-padrao" placeholder="Cadastre sua senha">
+                <br>
+                <button id="submit" type="submit">Enviar</button>
             </form>
         </section>
     </main>
