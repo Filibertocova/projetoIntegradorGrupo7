@@ -6,12 +6,14 @@
     --Header: #063b10da;
     --text-footer: #99CC66;
 }
-#body-contato{
+
+#body-contato {
     background-color: #ebebeb;
 }
-.banner-contato{
+
+.banner-contato {
     min-height: 100vh;
-    margin-top: 30px; 
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -19,15 +21,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-contato-titulo{
+
+.banner-contato-titulo {
     font-size: 2.5rem;
     display: flex;
     justify-content: flex-end;
     width: 500px;
-
 }
 
-.form-contato{
+.form-contato {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,29 +39,27 @@
     width: 500px;
     margin: 30px auto;
     border-radius: 15px;
-    
-
 }
-.form-titulo{
+
+.form-titulo {
     color: black;
     font-size: 2.5rem;
     padding: 10px 0 30px 0;
-    
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+}
 
-    
-}
-form label{
+form label {
     color: black;
     font-size: 20px;
     margin-bottom: 10px;
 }
-form input{
+
+form input {
     padding: 10px;
     outline: none;
     margin-bottom: 20px;
@@ -67,7 +67,8 @@ form input{
     border-radius: 15px;
     background-color: #ebebeb;
 }
-form textarea{
+
+form textarea {
     padding: 10px;
     outline: none;
     margin-bottom: 20px;
@@ -75,25 +76,135 @@ form textarea{
     border-radius: 15px;
     background-color: #ebebeb;
 }
-form fieldset{
+
+form fieldset {
     color: black;
     font-size: 20px;
     margin-bottom: 10px;
 }
-form fieldset select{
+
+form fieldset select {
     padding: 10px;
     outline: none;
     margin-bottom: 20px;
     font-size: 15px;
     border-radius: 15px;
 }
-form button{
+
+form button {
     padding: 10px;
     outline: none;
     margin-bottom: 20px;
     font-size: 15px;
     border-radius: 15px;
     background-color: var(--text-footer);
-
 }
 
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.success i .img-success {
+    visibility: visible;
+}
+
+.form-control.error i .img-error {
+    visibility: visible;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #DB5A5A
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #828CAD;
+}
+
+.form-control input {
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small {
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.form button {
+    background-color: #31bb28;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #07792d;
+    transition: 0.3s;
+}

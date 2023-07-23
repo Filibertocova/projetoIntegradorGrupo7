@@ -24,45 +24,47 @@ function lightMode() {
 
 
 //Formulario
-const submit = document.getElementById("submit");
+// const submit = document.getElementById("submit");
 
-submit.addEventListener("click", validate);
+// submit.addEventListener("click", validate);
 
-function validate(e) {
-    e.preventDefault();
+// function validate(e) {
+//     e.preventDefault();
 
-    const firstNameField = document.getElementById("firstname");
-    let valid = true;
+//     const firstNameField = document.getElementById("firstname");
+//     let valid = true;
 
-    if (!firstNameField.value) {
-        const nameError = document.getElementById("nameError");
-        nameError.classList.add("visible");
-        firstNameField.classList.add("invalid");
-        nameError.setAttribute("aria-hidden", false);
-        nameError.setAttribute("aria-invalid", true);
-    }
-    return valid;
-}
+//     if (!firstNameField.value) {
+//         const nameError = document.getElementById("nameError");
+//         nameError.classList.add("visible");
+//         firstNameField.classList.add("invalid");
+//         nameError.setAttribute("aria-hidden", false);
+//         nameError.setAttribute("aria-invalid", true);
+//     }
+//     return valid;
+// }
 
-const submit = document.getElementById("submit");
+// const submit = document.getElementById("submit");
 
-submit.addEventListener("click", validate);
+// submit.addEventListener("click", validate);
 
-function validate(e) {
-    e.preventDefault();
+// function validate(e) {
+//     e.preventDefault();
 
-    const firstNameField = document.getElementById("nome");
-    let valid = true;
+//     const firstNameField = document.getElementById("nome");
+//     let valid = true;
 
-    if (!firstNameField.value) {
-        const nameError = document.getElementById("nameError");
-        nameError.classList.add("visible");
-        firstNameField.classList.add("invalid");
-        nameError.setAttribute("aria-hidden", false);
-        nameError.setAttribute("aria-invalid", true);
-    }
-    return valid;
-}
+//     if (!firstNameField.value) {
+//         const nameError = document.getElementById("nameError");
+//         nameError.classList.add("visible");
+//         firstNameField.classList.add("invalid");
+//         nameError.setAttribute("aria-hidden", false);
+//         nameError.setAttribute("aria-invalid", true);
+//     }
+//     return valid;
+// }
+
+
 // carrosel        
 // $(document).ready(function() {
 //     // Activate Carousel
@@ -92,17 +94,27 @@ function validate(e) {
 // })
 
 // Declarando Variaveis
-let inputNome = document.getElementById("nome");
+
+//*
+let inputNome = document.getElementById('nome');
 let inputSobreNome = document.getElementById("sobrenome");
-let inputCpf = document.getElementById("cpf");
+let inputCpf = document.getElementById();
 let inputIdade = document.getElementById("idade");
 let inputEmail = document.getElementById("email");
 let inputSenha = document.getElementById("senha");
 let formulario = document.querySelector("form");
 
+let botton = document.getElementById("submit");
+document.getElementById("focusButton").addEventListener("click", () => {
+    document.getElementById("myButton").focus();
+});
+
 
 
 // Evento focus
+document.getElementById("focusButton").addEventListener("click", () => {
+    document.getElementById("myTextField").focus({ focusVisible: true });
+});
 inputEmail.addEventListener("focus", () => {
     inputEmail.style.backgroundColor = "lightgreen"
 });
